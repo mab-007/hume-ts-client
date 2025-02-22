@@ -323,6 +323,7 @@ import './styles.css';
 
       // invoke tool upon receiving a tool_call message
       case "tool_call":
+        console.log("tool_call message received");
         handleToolCallMessage(message, socket);
         break;
     }
