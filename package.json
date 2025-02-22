@@ -1,0 +1,25 @@
+{
+  "name": "hume-evi-typescript-sample-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.22.0",
+    "hume": "^0.9.6",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
