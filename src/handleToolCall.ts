@@ -1,9 +1,4 @@
 import { Hume } from "hume";
-import {
-  DynamicRetrievalMode,
-  GenerateContentResult,
-  GoogleGenerativeAI
-} from "@google/generative-ai";
 
 /**
  * fetches the weather at a given location in a specified temperature format
